@@ -1,0 +1,59 @@
+*
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+h1
+{
+  font-family: 'Arial, Helvetica, sans-serif';
+  font-size: 40px;
+}
+h2
+{
+    font-family: 'Arial, Helvetica, sans-serif';
+}
+body
+{
+  background: linear-gradient(rgb(226, 201, 226),rgb(230, 119, 220));
+ display: grid;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  border: 6px;
+}
+p
+{
+  font-family: 'Arial, Helvetica, sans-serif';
+}
+.imgflex
+{   float: right;
+      position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 70%;
+    overflow: hidden;
+}
+.full-name .imgflex img
+{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.skills
+{
+  margin-top: 10px;
+  font-family: 'Arial, Helvetica, sans-serif';
+  margin-bottom: 10px;
+}
+.about
+{
+  margin-top: 10px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+  
+  
+  
+  
+  

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Call Me Maybe?</title>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+  <script defer src="callmecontact.css"></script>
+  <link rel="stylesheet" href="callmecontact.css">
+</head>
+<body>
+  <div class="container">
+    <div class="title">Contact Me</div>
+    <form action="https://formspree.io/f/mrgdgvvy"
+    method="POST">
+      <div class="user-details">
+        
+        <div class="input-box">
+          <span class="details">Full Name</span>
+          <input type="text" placeholder="Call Me By Your Name" required>
+        </div>
+
+        <div class="input-box">
+          <span class="details">Email</span>
+          <input type="text" placeholder="Alpha Mail Tate" required>
+        </div>
+
+        <div class="input-box">
+          <span class="details">Address</span>
+          <input type="text" placeholder="What's Your Addy?" required>
+        </div>
+
+        <div class="input-box">
+          <span class="details">City</span>
+          <input type="text" placeholder="You Lost Baby Gworl?" required>
+        </div>
+
+        <div class="input-box">
+          <span class="details">Postal Code</span>
+          <input type="text" placeholder="Enter your postal code" required>
+        </div>
+
+        <div class="input-box">
+          <span class="details">Province</span>
+          <input type="text" placeholder="Enter your province" required>
+        </div>
+
+        <div class="input-box">
+          <span class="details">Phone Number</span>
+          <input type="tel" id="phonenumber" name="phonenumber" title="Phone Number" placeholder="###-###-####" pattern="^\d{3}-\d{3}-\d{4}$"/>
+        </div>
+
+        <div class="input-box">
+          <span class="details">Say It To My Face</span>
+          <input type="text" placeholder="Comments" required minlength="5" maxlength="300">
+        </div>
+        
+        <button type="submit" name="submit" value="  Clear  " onclick="clearErrors()">Submit</button>
+        <button type="reset" name="reset" value="  Clear  " onclick="clearErrors()">Reset</button>
+        <div id="errors"></div>
+        </div>
+      </div>
+  </div>
+</body>
+</html>
